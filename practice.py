@@ -1,17 +1,16 @@
-print('hello world')
+# 10. 인덱스와 슬라이싱 
 
-a = int(float(3.4))
-print(a)
+lang = 'PYTHON'
+print(lang[0]) # 첫번째 값
 
-# 9. 주석
+print(lang[5]) # 마지막 값
+print(lang[-1]) # 마지막 값
 
-# 한 줄 주석
-print('신랑 신부 입장')
-# 걷기 시작하면
-print('큰 박수 부탁드립니다')
+print(lang[1:6]) # 두번째부터 마지막 값
+print(lang[1:]) # 두번째부터 마지막 값
 
-# 여러 줄 주석
-print('신랑 신부 입장')
-''' 걷기 시작하고
-잠시 후에'''
-print('큰 박수 부탁드립니다')
+print(lang[0:4]) # 첫번째부터 네번째 값
+print(lang[1:4]) # 첫번째부터 네번째 값
+
+print(lang[0:6]) # 첫번째부터 마지막 값
+print(lang[:]) # 첫번째부터 마지막 값
